@@ -23,3 +23,9 @@ Ensure you have `dig` installed on your system. You can install it using your pa
   sudo tcpdump -i eth0 udp port 53 -vvv
 
 
+	•	Replace "SensitiveData" with your actual sensitive data.
+	•	Replace "your-collaborator-domain.burpcollaborator.net" with your Burp Collaborator domain.
+	•	Make the script executable (chmod +x script_name.sh) and run it (./script_name.sh).
+
+
+
